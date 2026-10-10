@@ -7,9 +7,9 @@ export const AGENT_CONFIGS: Record<string, AgentConfig> = {
     shortLabel: 'CLERK',
     title: 'Intake Receptionist',
     specialty: 'Requirement Extraction & Workflow Dispatch',
-    color: '#ed54ba',
-    darkColor: '#ab2780',
-    visorColor: '#93c5fd',
+    color: '#f43f5e', // Vibrant Pink / Rose
+    darkColor: '#be123c',
+    visorColor: '#34d399',
     tag: 'INTAKE',
     hat: 'headset',
     position: { x: 18, y: 35 },
@@ -22,11 +22,11 @@ export const AGENT_CONFIGS: Record<string, AgentConfig> = {
     shortLabel: 'API',
     title: 'Backend & API Tester',
     specialty: 'REST/GraphQL Endpoints, Schema & Payloads',
-    color: '#eab308', // Yellow
-    darkColor: '#a16207',
-    visorColor: '#93c5fd',
+    color: '#4d7c0f', // Olive/Forest Green like reference image
+    darkColor: '#365314',
+    visorColor: '#34d399',
     tag: 'DECIMAL',
-    hat: 'goggles',
+    hat: 'explorer', // Brown explorer slouch hat with laptop!
     position: { x: 34, y: 46 },
     facing: 'right',
     description: 'Fuzzes input payloads, verifies HTTP response status codes, and audits rate-limiting thresholds.'
@@ -37,11 +37,11 @@ export const AGENT_CONFIGS: Record<string, AgentConfig> = {
     shortLabel: 'FUNCTIONAL',
     title: 'Frontend & Functional Tester',
     specialty: 'User Journeys, DOM State & Cross-Browser UI',
-    color: '#dc2626', // Red
-    darkColor: '#991b1b',
-    visorColor: '#93c5fd',
+    color: '#ec4899', // Pink robot with glowing green shield emblem
+    darkColor: '#be185d',
+    visorColor: '#34d399',
     tag: 'ELOCDNAL',
-    hat: 'cap',
+    hat: 'shield',
     position: { x: 44, y: 34 },
     facing: 'right',
     description: 'Simulates user clickstreams, checks form validation cues, and detects unhandled JS exceptions.'
@@ -52,11 +52,11 @@ export const AGENT_CONFIGS: Record<string, AgentConfig> = {
     shortLabel: 'SECURITY',
     title: 'Cybersecurity Tester',
     specialty: 'XSS, CSRF, Header Audits & Auth Bypass',
-    color: '#334155', // Sleek slate/black
+    color: '#334155', // Charcoal Grey with dark fedora & notepad
     darkColor: '#1e293b',
-    visorColor: '#93c5fd',
+    visorColor: '#34d399',
     tag: 'REVIVE',
-    hat: 'shield',
+    hat: 'fedora',
     position: { x: 57, y: 34 },
     facing: 'left',
     description: 'Probes CSP violations, cookie security flags, SQLi vectors, and sensitive endpoint exposures.'
@@ -67,9 +67,9 @@ export const AGENT_CONFIGS: Record<string, AgentConfig> = {
     shortLabel: 'PRIVACY',
     title: 'Privacy & Data Integrity Tester',
     specialty: 'GDPR, Tracker Leaks & LocalStorage PII',
-    color: '#06b6d4', // Cyan
-    darkColor: '#0e7490',
-    visorColor: '#93c5fd',
+    color: '#eab308', // Yellow/Gold robot at table
+    darkColor: '#a16207',
+    visorColor: '#34d399',
     tag: 'REIME',
     hat: 'lock',
     position: { x: 67, y: 46 },
@@ -82,11 +82,11 @@ export const AGENT_CONFIGS: Record<string, AgentConfig> = {
     shortLabel: 'PERFORMANCE',
     title: 'Performance & Resilience Tester',
     specialty: 'Lighthouse, Core Web Vitals & Spike Load',
-    color: '#16a34a', // Green
-    darkColor: '#15803d',
-    visorColor: '#93c5fd',
+    color: '#e2e8f0', // Crisp White/Slate Suit with mint CRT screen
+    darkColor: '#94a3b8',
+    visorColor: '#34d399',
     tag: 'REWP',
-    hat: 'tie',
+    hat: 'none',
     position: { x: 62, y: 64 },
     facing: 'left',
     description: 'Measures LCP, CLS, TTFB under throttled networks, and benchmarks server stress limits.'
@@ -97,11 +97,11 @@ export const AGENT_CONFIGS: Record<string, AgentConfig> = {
     shortLabel: 'INTEGRATION',
     title: 'Full-Stack Integration & Edge-Case Tester',
     specialty: 'Race Conditions, Payment Webhooks & Offline Sync',
-    color: '#8b5cf6', // Purple
-    darkColor: '#6d28d9',
-    visorColor: '#93c5fd',
+    color: '#dc2626', // Red robot with headphones & gauge
+    darkColor: '#991b1b',
+    visorColor: '#34d399',
     tag: 'SYNAPSE',
-    hat: 'none',
+    hat: 'headset',
     position: { x: 39, y: 64 },
     facing: 'right',
     description: 'Tests asynchronous event queues, idempotency keys, boundary values, and intermittent disconnects.'
@@ -112,9 +112,9 @@ export const AGENT_CONFIGS: Record<string, AgentConfig> = {
     shortLabel: 'OFFICER',
     title: 'Reporting Officer',
     specialty: 'Consolidated Findings, Fix Verification & AI Dialogue',
-    color: '#1e293b', // Dark Charcoal with fedora
+    color: '#1e293b', // Dark Charcoal Detective with fedora & notepad
     darkColor: '#0f172a',
-    visorColor: '#93c5fd',
+    visorColor: '#34d399',
     tag: 'COMMAND',
     hat: 'fedora',
     position: { x: 84, y: 42 },

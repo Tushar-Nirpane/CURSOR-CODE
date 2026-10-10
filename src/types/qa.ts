@@ -20,7 +20,7 @@ export interface AgentConfig {
   darkColor: string; // Dark shade for outline/shadow
   visorColor: string;
   tag: string; // e.g. "DECIMAL", "ELOCDNAL", "REVIVE", etc.
-  hat?: 'fedora' | 'headset' | 'goggles' | 'shield' | 'lock' | 'cap' | 'tie' | 'none';
+  hat?: 'fedora' | 'headset' | 'explorer' | 'goggles' | 'shield' | 'lock' | 'cap' | 'tie' | 'none';
   position: { x: number; y: number }; // percentage inside cafeteria
   facing: 'left' | 'right';
   description: string;
